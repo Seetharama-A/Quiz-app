@@ -1,0 +1,36 @@
+H1{
+    margin-left: 450px;
+    color: red;
+}
+H2{
+    margin-left: 450px;
+    color:orchid
+}
+#question{
+    margin-left: 200px;
+}
+#options{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #options button {
+    flex-basis: 20%;
+    margin: 10px 0px 0px 200px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight:500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    #options button:hover{
+        background-color:rgb(165, 248, 248);
+    }
+#btn{
+    margin-left: 240px;
+}
+#btn button{
+margin-top: 50px;
+margin-left: 20px;
+}
